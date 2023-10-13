@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           name: Install apt packages
-          command: 'sudo apt install p7zip-full gcc-arm-none-eabi binutils-arm-none-eabi'
+          command: 'sudo apt install gcc-arm-none-eabi'
       - run:
           name: Build Demo
           command: |
